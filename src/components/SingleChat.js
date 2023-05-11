@@ -15,7 +15,7 @@ import animationData from "../animations/typing.json";
 import io from "socket.io-client";
 import UpdateGroupChatModal from "./miscellaneous/UpdateGroupChatModal";
 import { ChatState } from "../Context/ChatProvider";
-const ENDPOINT = "https://chatz-app.deepakpalrocks.repl.co/"; // "https://talk-a-tive.herokuapp.com"; -> After deployment
+const ENDPOINT = "https://main--glittering-brioche-171430.netlify.app/chats"; // "https://talk-a-tive.herokuapp.com"; -> After deployment
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
